@@ -4,6 +4,7 @@ import AddTask from "./components/AddTask";
 import FilterBar from "./components/FilterBar";
 import TaskList from "./components/TaskList";
 import QuoteSection from "./components/QuoteSection";
+import Footer from "./components/Footer";
 
 // Single context for tasks + theme + filter
 export const AppContext = createContext();
@@ -96,6 +97,7 @@ const App = () => {
           <FilterBar />
           <TaskList />
           <QuoteSection />
+          <Footer />
         </div>
       </div>
     </AppContext.Provider>
